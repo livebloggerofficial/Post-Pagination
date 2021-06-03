@@ -1,0 +1,46 @@
+.page-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Copy the following code to Blogger */
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-container .page-numbers-container {
+    display: flex;
+    font-size: 18px;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.page-numbers-container .page-number {
+    padding: 8px 24px;
+    transition: all 400ms;
+}
+
+.page-numbers-container .page-number:hover {
+    background: #c5c5e9;
+    cursor: pointer;
+}
+
+.page-numbers-container .page-number.active {
+    background: #6161f7;
+    color: #fff;
+}
+
+/* Page Content */
+
+.page-content .page {
+    display: none;
+}
+
+.page-content .page.active {
+    display: block;
+}
